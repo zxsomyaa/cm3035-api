@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CM3035 – Death Rates API</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #333; padding: 10px; }
+        th { background-color: #f2f2f2; }
+        tr:hover { background-color: #fafafa; }
+        code { background-color: #eee; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+
+<h1>CM3035 Coursework – Death Rates from Air Pollution API</h1>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>URL</th>
+        <th>What it does</th>
+    </tr>
+    <tr>
+        <td>Get all death rates</td>
+        <td><code>/api/deathrates/</code></td>
+        <td>Returns all death rate records.</td>
+    </tr>
+    <tr>
+        <td>Filter by country</td>
+        <td><code>/api/deathrates/country/&lt;code&gt;/</code></td>
+        <td>Returns records for a specific country.</td>
+    </tr>
+    <tr>
+        <td>Filter by year</td>
+        <td><code>/api/deathrates/year/&lt;year&gt;/</code></td>
+        <td>Returns records for a specific year.</td>
+    </tr>
+    <tr>
+        <td>Country + year</td>
+        <td><code>/api/deathrates/country/&lt;code&gt;/year/&lt;year&gt;/</code></td>
+        <td>Returns records for a given country and year.</td>
+    </tr>
+    <tr>
+        <td>Global average</td>
+        <td><code>/api/deathrates/global-average/&lt;year&gt;/</code></td>
+        <td>Returns global average death rate.</td>
+    </tr>
+    <tr>
+        <td>Create record</td>
+        <td><code>/api/deathrates/</code></td>
+        <td>Creates a new record (POST).</td>
+    </tr>
+</table>
+
+</body>
+</html>

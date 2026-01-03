@@ -1,0 +1,15 @@
+# env + secrets
+.env
+myenv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# django
+db.sqlite3
+staticfiles/
+
+# mac
+.DS_Store
